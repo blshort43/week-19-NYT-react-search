@@ -6,7 +6,7 @@ var Router = require('react-router')
 var helpers = require('../../utils/helper');
 
 // Create the Main component
-var Main = React.createClass({
+var Saved = React.createClass({
 
 	getInitialState: function(){
 		return {
@@ -121,4 +121,4 @@ var Main = React.createClass({
 });
 
 // Export the module back to the route
-module.exports = Main;
+module.exports = Saved;

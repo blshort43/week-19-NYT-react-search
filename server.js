@@ -5,7 +5,7 @@ var logger = require("morgan");
 var mongoose = require("mongoose");
 
 // Article model
-var Article = require("./models/Article.js");
+var Article = require("./model/Article");
 
 // Set up promises
 var Promise = require("bluebird");
@@ -27,7 +27,7 @@ app.use(bodyParser.json({
 }));
 
 // Public static dir
-app.use(express.static("public"));
+app.use(express.static("./public"));
 
 // Database configuration with mongoose
 var databaseUri = "mongodb://localhost/week19db";
@@ -56,7 +56,7 @@ db.once("open", function() {
 
 //Index route
 app.get("/", function(req, res) {
-    res.send("./public/index.html")
+    res.send("./public/index")
 });
 
 // Get all saved articles
