@@ -37,7 +37,7 @@ module.exports = (
       <Route path="Search" component={Search} >
 
         {/* Child1 has its own Grandchildren options */}
-        <Route path="Query" component={Query} />
+        <Route path="Search" component={Search} />
         <Route path="Results" component={Results} />
 
         <IndexRoute component={Query} />
@@ -48,7 +48,7 @@ module.exports = (
       <Route path="Saved" component={Saved} />
 
       {/* If user selects any other path... we get the Home Route */}
-      <IndexRoute component={Main} />
+      <IndexRoute component={Search} />
 
     </Route>
   </Router>

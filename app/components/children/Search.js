@@ -1,8 +1,8 @@
 // Include React
 var React = require("react");
 var Router = require('react-router');
-var Query = require("./grandchildren/Query");
-var Results = require("./grandchildren/Results");
+var Query = require('./grandchildren/Query');
+var Results = require('./grandchildren/Results');
 
 var helper = require('../../utils/helper');
 
