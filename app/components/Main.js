@@ -1,9 +1,9 @@
 // Include React
 var React = require("react");
-
+var Router = require('react-router');
 var Search = require("./children/Search");
-// var Results = require("./children/Results");
-// var History = require("./children/History");
+var Results = require("./children/grandchildren/Results");
+var History = require("./children/grandchildren/Query");
 
 var Main = React.createClass({
 

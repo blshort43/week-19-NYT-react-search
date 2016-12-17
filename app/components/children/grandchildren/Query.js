@@ -1,6 +1,6 @@
 // Include React and React-Router dependencies
 var React = require('react');
-
+var Router = require('react-router');
 // Query Component Declaration
 var Query = React.createClass({ 
 

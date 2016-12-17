@@ -1,10 +1,10 @@
 // Include React
 var React = require("react");
-
+var Router = require('react-router');
 var Query = require("./grandchildren/Query");
 var Results = require("./grandchildren/Results");
 
-var helper = require('../../helper/helper.js');
+var helper = require('../../utils/helper');
 
 // Create the Main component
 var Search = React.createClass({
