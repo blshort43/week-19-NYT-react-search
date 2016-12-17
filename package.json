@@ -1,11 +1,12 @@
 {
   "name": "react-example",
   "version": "1.0.0",
-  "description": "",
+  "description": "Week 19 Homework",
   "main": "public/index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack -w"
+    "build": "webpack -w",
+    "start": "node server.js"
   },
   "author": "Ahmed Haque",
   "license": "ISC",
@@ -20,5 +21,13 @@
     "babel-preset-es2015": "^6.3.13",
     "babel-preset-react": "^6.3.13",
     "webpack": "^1.13.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blshort43/week-19-NYT-react-search.git"
+  },
+  "bugs": {
+    "url": "https://github.com/blshort43/week-19-NYT-react-search/issues"
+  },
+  "homepage": "https://github.com/blshort43/week-19-NYT-react-search#readme"
 }
